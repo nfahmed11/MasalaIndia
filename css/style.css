@@ -443,8 +443,7 @@ footer {
   }
   /* contact */
   .contact-row-1 {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: block;
   }
 }
 
@@ -458,11 +457,6 @@ footer {
   /* team */
   .team-item {
     margin-bottom: 0;
-  }
-  .team-row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
   }
   /* contact */
 
